@@ -23,7 +23,8 @@ namespace CreateControllerAndView.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        [Route("Login")]
+        public IActionResult Login()
         {
             return View();
         }
